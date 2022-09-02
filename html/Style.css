@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url('https://static.vecteezy.com/system/resources/previews/001/874/132/original/abstract-geometric-white-background-free-vector.jpg');
+    }
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    height: 350px;
+    padding: 40px;
+    background: #668888cc;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(3, 36, 51, 0.5);
+    border-radius:10px;
+    }
+
+.logo{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background:#1E1E1E;
+    border: #fff solid 8px;
+    border-radius: 50%;
+    top: -70px;
+    left: 115px;
+    width: 100px;
+    }
+
+.box h2{
+    margin: 0 0 30px;
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    top: 20px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    text-transform:uppercase ;
+    }
+
+.box .inputBox{
+    position: relative;
+    left: -20px;
+    }
+
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(238, 235, 235);
+    outline: none;
+    background: transparent;
+}
+
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    padding: 10px 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputBox i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.inputBox input[type="text"]:focus + i {
+    color: rgb(153, 159, 165);
+}
+
+.inputBox input[type="password"]:focus + i {
+    color: rgb(153, 159, 165);
+}
+
+.inputBox.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 7px 4px;
+    border-radius: 4px 0 0 0;
+}
+
+.inputBox.inputIconBg input[type="text"]:focus + i {
+    color: #fff;
+    background-color: rgb(107, 129, 151);
+}
+
+.inputBox.inputIconBg input[type="password"]:focus + i {
+    color: #fff;
+    background-color: rgb(85, 110, 134);
+}
+
+.inputBox input[type="text"]:focus{
+    border-bottom: 1px solid oreange;
+}
+
+.inputBox input[type="password"]:focus{
+    border-bottom: 1px solid rgb(85, 110, 134);
+}
+
+.box input[type="text"] {
+    padding-left: 40px;
+}
+
+.box input[type="password"] {
+    padding-left: 40px;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #5c7683;
+    font-size: 12px;    
+}
+
+.box input[type="submit"]{
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 230px;
+    left: 255px;
+    color: white;
+    background: #60a3df;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.box input[type="submit"]:hover{
+    background:#3f82cf;
+}
+
+.fmpBtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 230px;
+    left: 15px;
+    color: white;
+    background: #2a7dc6;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.fmpBtn:hover{
+    background:#1d8eda;
+}
+
+.crtBtn{
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 300px;
+    left: 25%;
+    color: #fff;
+    background: #2b73b6;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.crt:hover{
+    background:#559ece;
+}
